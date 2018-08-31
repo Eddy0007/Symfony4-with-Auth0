@@ -5,6 +5,7 @@ Encore
     .setPublicPath('/build')
     .cleanupOutputBeforeBuild()
     .addEntry('app', './assets/js/main.js')
+    .addEntry('react', './assets/js/react.js')
     .addStyleEntry('global', './assets/css/global.scss')
     .enableSassLoader()
     .autoProvidejQuery()
