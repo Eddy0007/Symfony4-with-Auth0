@@ -9,6 +9,7 @@ Encore
     .addStyleEntry('global', './assets/css/global.scss')
     .enableSassLoader()
     .autoProvidejQuery()
-    .enableSourceMaps(!Encore.isProduction());
+    .enableSourceMaps(!Encore.isProduction())
+    .enableReactPreset();
 
 module.exports = Encore.getWebpackConfig();
